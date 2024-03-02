@@ -54,15 +54,18 @@ h1,h2,h3 {font-weight:300;}
       <details>
         <summary>Prompt me by touching the blue button between questions. Get list of supported commands by clicking arrow.</summary>
 	<ul>
-	  <li>Go to home</li>
-      <li>Search Collection</li>
-      <li>Browse Collection</li>
-      <li>About Collection</li>
-      <li>Dates in Collection</li>
-      <li>Contact</li>
-      <li>Do you like your job?</li>
-      <li>Who created you?</li>
-      <li>What is the meaning of life?</li>
+	  <li>what can you do</li>
+      <li>what do you do</li>
+      <li>home</li>
+      <li>search</li>
+      <li>browse</li>
+      <li>about</li>
+      <li>date and time</li>
+      <li>contact</li>
+      <li>what is the meaning of life?</li>
+      <li>share positive quotes for my mental health</li>
+      <li>show me emergency contacts</li>
+      <li>do you like your job</li>
     </ul>
       </details>
     </div>
@@ -129,14 +132,14 @@ const Assistant = ((() => {
         {"command" : "what can you do", "response" : "I can do things for you. Like, help you search or browse the collection; or tell you more about the collection. So, how may I help?"},
         {"command" : "what do you do", "response" : "I can do things for you. Like, help you search or browse the collection; or tell you more about the collection. So, how may I help?"},
         {"command" : "home", "href" : "https://www.lib.montana.edu/~jason/files/talking-collection/"},
-        {"command" : "search", "href" : "https://www.lib.montana.edu/~jason/files/talking-collection/search.html"},
-        {"command" : "browse", "href" : "https://arc.lib.montana.edu/schultz-0010/topics.php"},
-        {"command" : "about", "response" : "James Willard Schultz Photos & Personal Papers Collection includes photos & documents of Blackfeet, Blood, Kootenai, Shoshone and Arapaho Native Americans, Glacier and Waterton Lakes National Parks, as well as his professional writing career and personal papers."},
-        {"command" : "dates", "href" : "https://arc.lib.montana.edu/schultz-0010/dates.php"},
+        {"command" : "search", "href" : "https://www.google.com?search"},
+        {"command" : "browse", "href" : "https://www.google.com/"},
+        {"command" : "about", "response" : "Hi! I am ableassist.. I can do what ever you want"},
+        {"command" : "date and time", "href" : "https://www.google.com/search?q=today+date+and+time&rlz=1C1RXQR_enIN1031IN1031&oq=today+date&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDQwODFqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8"},
         {"command" : "contact", "href" : "https://www.lib.montana.edu/digital/contact.php" },
-        {"command" : "meaning of life", "response" : "The answer to the ultimate question of life, the universe and everything is 42."},
-        {"command" : "favorite things", "response" : "I love unicorns, rainbows, and jelly beans."},
-        {"command" : "who created you", "response" : "Jason A. Clark. @jaclark. He created me."},
+        {"command" : "what is the meaning of life?", "href" : "https://www.google.com/search?q=meaning+of+life&rlz=1C1RXQR_enIN1031IN1031&oq=meaning+of+life&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABKgCALACAA&sourceid=chrome&ie=UTF-8"},
+        {"command" : "share positive quotes for my mental health", "href" : "https://dishi20p.github.io/Quotess/"},
+        {"command" : "show me emergency contacts", "href" : "https://www.google.com/search?q=emergency+contacts+for+disabled+persons&rlz=1C1RXQR_enIN1031IN1031&oq=emergency+contacts+for+disab&gs_lcrp=EgZjaHJvbWUqBwgCECEYoAEyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBdIBCTE1MjAwajBqN6gCALACAA&sourceid=chrome&ie=UTF-8"},
         {"command" : "do you like your job", "response" : "Mostly. I like navigating the information superhighway!"},
     ];
 
